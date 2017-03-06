@@ -1,43 +1,82 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="demo.xsl"?>
 <root>
-  <env>
-    <domain>local</domain>
-  </env>
-  <p>
-    <title>demo page</title>
-    <desc>this is deme page</desc>
-    <owner>openxsl</owner>
-    <icon>//oxm1.cc/img/app_default.png</icon>
-  </p>
-  <data>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
         <psychological-test>
-        <questions>
-            <i>
-                <title>
-                    car
-                </title>
-                <options>
-                    <i>
-                        camera
-                    </i>
-                </options>
-            </i>
-        </questions>
-        <results>
-            <i>
-                <value>
-                    powerful notebook
-                </value>
-                <text>
-                    camera
-                </text>
-            </i>
-        </results>
-        <title>
-            good watch
-        </title>
-    </psychological-test>
-  </data>
+            <title>快来测试一下你是金庸笔下的哪个人物吧！老有意思了！</title>
+            <questions>
+                <i>
+                    <title>你喜欢下面哪个数字</title>
+                    <options>
+                        <i>3</i>
+                        <i>6</i>
+                        <i>8</i>
+                    </options>
+                </i>
+                <i>
+                    <title>你喜欢下面哪种颜色</title>
+                    <options>
+                        <i>黑</i>
+                        <i>绿</i>
+                        <i>红</i>
+                    </options>
+                </i>
+                <i>
+                    <title>你的性别</title>
+                    <options>
+                        <i>男</i>
+                        <i>女</i>
+                    </options>
+                </i>
+                <i>
+                    <title>你的年龄段</title>
+                    <options>
+                        <i>00后</i>
+                        <i>80后</i>
+                        <i>80前</i>
+                    </options>
+                </i>
+                <i>
+                    <title>吃饭多还是吃面多</title>
+                    <options>
+                        <i>饭</i>
+                        <i>面</i>
+                    </options>
+                </i>
+            </questions>
+            <results>
+                <i>
+                    <value>郭靖</value>
+                    <text>你是一代大侠，伟大的郭大侠，好屌的样子</text>
+                </i>
+                <i>
+                    <value>杨康</value>
+                    <text>英俊帅气的面容下藏着更多的不覊与放纵，生儿子会比较有出息</text>
+                </i>
+                <i>
+                    <value>东邪</value>
+                    <text>东东东邪邪邪邪邪邪邪邪</text>
+                </i>
+                <i>
+                    <value>西毒</value>
+                    <text>欧阳峰,帅得嘞</text>
+                </i>
+                <i>
+                    <value>其他</value>
+                    <text>爱谁谁,我也不知道怎么描述了</text>
+                </i>
+            </results>
+
+        </psychological-test>
+    </data>
 
 </root>

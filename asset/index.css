@@ -1,3 +1,117 @@
-.oxmod-psychological-test{
-/* CSS */
- }
+.oxmod-psychological-test {
+  /* CSS */
+  color: #555;
+}
+.oxmod-psychological-test h2,
+.oxmod-psychological-test h3 {
+  font-weight: 400;
+}
+.oxmod-psychological-test .psychological-test-list {
+  padding: 0px 20px;
+  margin: 0 10px;
+  overflow: hidden;
+  transition: all .5s;
+}
+.oxmod-psychological-test .psychological-test-list li {
+  list-style: decimal;
+  height: 50px;
+}
+.oxmod-psychological-test .psychological-test-list li label {
+  display: inline-block;
+  margin-right: 5%;
+  min-width: 20%;
+}
+.oxmod-psychological-test .scrollwindow {
+  height: 50px;
+  overflow: hidden;
+}
+.oxmod-psychological-test [data-on="1"] {
+  transform: translate(0, 0px);
+}
+.oxmod-psychological-test [data-on="2"] {
+  transform: translate(0, -50px);
+}
+.oxmod-psychological-test [data-on="3"] {
+  transform: translate(0, -100px);
+}
+.oxmod-psychological-test [data-on="4"] {
+  transform: translate(0, -150px);
+}
+.oxmod-psychological-test [data-on="5"] {
+  transform: translate(0, -200px);
+}
+.oxmod-psychological-test [data-on="6"] {
+  transform: translate(0, -250px);
+}
+.oxmod-psychological-test [data-on="7"] {
+  transform: translate(0, -300px);
+}
+.oxmod-psychological-test [data-on="8"] {
+  transform: translate(0, -350px);
+}
+.oxmod-psychological-test [data-on="9"] {
+  transform: translate(0, -400px);
+}
+.oxmod-psychological-test [data-on="10"] {
+  transform: translate(0, -450px);
+}
+.oxmod-psychological-test [data-on="11"] {
+  transform: translate(0, -500px);
+}
+.oxmod-psychological-test [data-on="12"] {
+  transform: translate(0, -550px);
+}
+.oxmod-psychological-test [data-on="13"] {
+  transform: translate(0, -600px);
+}
+.oxmod-psychological-test [data-on="14"] {
+  transform: translate(0, -650px);
+}
+.oxmod-psychological-test [data-on="15"] {
+  transform: translate(0, -700px);
+}
+.oxmod-psychological-test [data-on="16"] {
+  transform: translate(0, -750px);
+}
+.oxmod-psychological-test [data-on="17"] {
+  transform: translate(0, -800px);
+}
+.oxmod-psychological-test [data-on="18"] {
+  transform: translate(0, -850px);
+}
+.oxmod-psychological-test [data-on="19"] {
+  transform: translate(0, -900px);
+}
+.oxmod-psychological-test [data-on="20"] {
+  transform: translate(0, -950px);
+}
+.oxmod-psychological-test [data-on="21"] {
+  transform: translate(0, -1000px);
+}
+.oxmod-psychological-test [data-on="22"] {
+  transform: translate(0, -1050px);
+}
+.oxmod-psychological-test [data-on="23"] {
+  transform: translate(0, -1100px);
+}
+.oxmod-psychological-test [data-on="24"] {
+  transform: translate(0, -1150px);
+}
+.oxmod-psychological-test [data-on="25"] {
+  transform: translate(0, -1200px);
+}
+.oxmod-psychological-test [data-on="26"] {
+  transform: translate(0, -1250px);
+}
+.oxmod-psychological-test [data-on="27"] {
+  transform: translate(0, -1300px);
+}
+.oxmod-psychological-test [data-on="28"] {
+  transform: translate(0, -1350px);
+}
+.oxmod-psychological-test [data-on="29"] {
+  transform: translate(0, -1400px);
+}
+.oxmod-psychological-test [data-on="30"] {
+  transform: translate(0, -1450px);
+}
