@@ -1,0 +1,6 @@
+{
+  "name": "psychological-test",
+  "version": "1.0.0",
+  "apiDependencies": ["psychological-test"]
+}
+
