@@ -1,5 +1,7 @@
+@scrollheight:80px;
 .oxmod-psychological-test{
 /* CSS */
+  padding:10px;
   color:#555;
   h2,h3{
     font-weight: 400;
@@ -7,26 +9,27 @@
   .psychological-test-list{
     //height: 50px;
     padding:0px 20px;
-    margin:10px;
+    margin:10px 0;
     overflow: hidden;
     transition: all .5s;
     li{
       list-style: decimal;
 
      // display: none;
-      height: 50px;
+      height: 80px;
       label{
         display: inline-block;
-        margin-right:30px;
-        min-width: 25%;
+        margin-right:5%;
+        min-width: 20%;
       }
     }
 
   }
 
   .scrollwindow{
-    height: 50px;
+    height: @scrollheight;
     overflow: hidden;
+
   }
 
   .loop(@counter) when (@counter > 0) {
@@ -34,7 +37,7 @@
 
     [data-on= "@{counter}" ]{
       //>li:nth-child(@{counter}){
-        transform: translate(0, (@counter - 1)*-50px);
+        transform: translate(0, (@counter - 1)*-@scrollheight);
       //}
     }
   }

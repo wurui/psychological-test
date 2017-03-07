@@ -7,7 +7,7 @@
             <h2>
                 <xsl:value-of select="$data/title"/>
             </h2>
-            <div class="scrollwindow">
+            <div class="scrollwindow J_ScrollWindow">
                 <ol class="J_Content psychological-test-list" data-on="1" data-count="{count($data/questions/i)}">
                     <xsl:for-each select="$data/questions/i">
                         <li>
